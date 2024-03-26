@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 app.use(express.json());
 
 const swaggerUi = require("swagger-ui-express")
-const swaggerDocument = require()
+const swaggerDocument = require("./swagger")
 
 
 mongoose.connect(process.env.MONGODB_URI)
